@@ -15,11 +15,11 @@ Welcome to **Yada-Yada**, the chat app that lets you connect, share, and chatter
 ## 🚀 Get Started
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/goro-dim/yada-yada.git
+   git clone https://github.com/goro-dim/YadaYada.git
    ```
 2. Navigate to the directory:  
    ```bash
-   cd yada-yada
+   cd YadaYada
    ```
 3. Install dependencies:  
    ```bash
