@@ -31,7 +31,8 @@
         {
             "pin": "yourpin", 
             "max_file_size": 1000000, 
-            "allowed_mime_types": ["image/png", "image/jpeg"]
+            "allowed_mime_types": ["image/png", "image/jpeg"],
+            "host_ip": "IP_ADRESS"
         }
         </code></pre>
         <p>Just a heads-up: make sure that PIN is a secret, or you might have uninvited guests! 😜</p>
