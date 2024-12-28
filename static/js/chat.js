@@ -14,7 +14,8 @@ document.getElementById("joinForm").addEventListener("submit", function (event) 
         return;
     }
 
-    const socket = new WebSocket(`ws://127.0.0.1:8000/ws/chat?pin=${pin}&nickname=${nickname}`);
+    const socket = new WebSocket(`ws://${HOST_IP}:8000/ws/chat?pin=${pin}&nickname=${nickname}`);
+
 
     socket.onopen = function () {
         document.getElementById("joinForm").style.display = "none";
