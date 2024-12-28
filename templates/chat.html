@@ -17,6 +17,7 @@
             <div id="online_users"></div>
         </div>
         <script>
+            const HOST_IP = "{{ request.url.hostname }}";
             let socket;
 
             document.getElementById("joinForm").onsubmit = function(event) {
@@ -24,7 +25,7 @@
                 const nickname = document.getElementById("nickname").value;
                 const pin = document.getElementById("pin").value;
 
-                socket = new WebSocket(`ws://127.0.0.1:8000/ws/chat?nickname=${nickname}&pin=${pin}`);
+                socket = new WebSocket(`ws://${HOST_IP}:8000/ws/chat?nickname=${nickname}&pin=${pin}`);
 
                 socket.onopen = function() {
                     document.getElementById("joinForm").style.display = "none";
