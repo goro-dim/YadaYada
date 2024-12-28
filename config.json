@@ -2,5 +2,6 @@
     "pin": "1234",
     "max_file_size": 5242880,
     "allowed_mime_types": ["image/png", "image/jpeg", "image/gif"],
+    "host_ip": "<server ip address>",  
     "max_login_attempts": 5
 }
